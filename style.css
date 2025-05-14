@@ -494,8 +494,19 @@ cite {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'minecraft';
+  src: url('fonts/Minecraftia-Regular.woff2') format('woff2'),
+       url('fonts/Minecraftia-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .titre-special {
   font-family: 'angry', sans-serif;
+}
+
+.titre-minecraft{
+    font-family: 'minecraft', sans-serif;
 }
 
