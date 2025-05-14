@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             
             monthTitle.textContent = monthName;
-            monthDescription.textContent = getMonthDetails(monthName);
+            monthDescription.innerHTML = getMonthDetails(month);
 
             
             months.forEach(m => m.classList.remove('active'));
