@@ -510,16 +510,3 @@ cite {
     font-family: 'minecraft', sans-serif;
 }
 
-.rocket-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-    width: 80px;
-    height: auto;
-}
-
-.rocket {
-    transition: transform 0.6s ease;
-    width: 100%;
-}
