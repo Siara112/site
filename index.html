@@ -71,30 +71,6 @@
         </div>
     </footer>
     
-    
-    
-    <div id="rocket">
-    🚀
-    </div>
-
-    <script>
-let lastScrollTop = 0;
-const rocket = document.getElementById("rocket");
-
-window.addEventListener("scroll", function() {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    if (scrollTop > lastScrollTop) {
-        
-        rocket.style.transform = "translateY(-100px)";
-    } else {
-        
-        rocket.style.transform = "translateY(0)";
-    }
-
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-});
-</script>
 
     
 </body>
