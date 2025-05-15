@@ -559,22 +559,26 @@ cite {
   padding: 80px 60px;
 }
 
+.section-red .text * {
+  color: white !important;
+}
+
 .section-red .media {
   flex: 0 0 45%;
   max-width: 45%;
 }
 
 .section-red .text {
-  flex: 0 0 50%; 
+  flex: 0 0 50%;
   max-width: 50%;
 }
-
 .section-red .media video {
   width: 100%;
   height: auto;
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+
 
 
 
