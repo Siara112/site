@@ -580,6 +580,7 @@ cite {
 .text-side {
     flex: 1;
     max-width: 50%;
+    background: #FFFFFF;
 }
 
 .text-side h2 {
@@ -625,6 +626,7 @@ cite {
 
     .text-side {
         margin-top: 30px;
+        background: #FFFFFF;
     }
 }
 
