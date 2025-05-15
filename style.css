@@ -573,6 +573,7 @@ cite {
 
 .text-right {
   max-width: 500px;
+    color: white;
 }
 
 .cta-button {
