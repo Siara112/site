@@ -553,7 +553,7 @@ cite {
 
 
 
-.red-section {
+.section-red {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -564,17 +564,19 @@ cite {
   flex-wrap: wrap;
 }
 
-.red-section .media video {
+.section-red .media video {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px; 
+  height: auto;
   border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.red-section .text {
+.section-red .text {
   flex: 1;
   max-width: 500px;
 }
+
 
 
 .white-section {
