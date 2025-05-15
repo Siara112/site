@@ -554,28 +554,28 @@ cite {
 
 
 .section-red {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: #8a0f0f;
   color: white;
-  padding: 60px;
-  gap: 40px;
-  flex-wrap: wrap;
+  padding: 80px 60px;
+}
+
+.section-red .media {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.section-red .text {
+  flex: 0 0 50%; 
+  max-width: 50%;
 }
 
 .section-red .media video {
   width: 100%;
-  max-width: 400px; 
   height: auto;
   border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-.section-red .text {
-  flex: 1;
-  max-width: 500px;
-}
 
 
 
