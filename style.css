@@ -510,3 +510,42 @@ cite {
     font-family: 'minecraft', sans-serif;
 }
 
+
+
+.problems-solutions {
+    padding: 40px;
+    background-color: #f9f9f9;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.problems-solutions h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.problem-block {
+    background-color: #ffffff;
+    border-left: 6px solid #4a90e2;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.problem-block:hover {
+    transform: translateY(-4px);
+}
+
+.problem-block h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.problem-block p {
+    margin: 6px 0;
+    color: #444;
+}
