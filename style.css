@@ -549,3 +549,79 @@ cite {
     margin: 6px 0;
     color: #444;
 }
+
+.hero-split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+    background-color: #0e0e0e;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.media-side {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 30px;
+}
+
+.media-side img,
+.media-side video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 70, 85, 0.2);
+}
+
+.text-side {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-side h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-side p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background: #ff4655;
+    color: white;
+    padding: 14px 35px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 0 20px rgba(255, 70, 85, 0.4);
+}
+
+.cta-button:hover {
+    background: #e13c4b;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-split {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .media-side,
+    .text-side {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .text-side {
+        margin-top: 30px;
+    }
+}
+
