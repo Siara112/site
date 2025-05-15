@@ -558,7 +558,7 @@ cite {
     align-items: center;
     justify-content: space-between;
     padding: 80px 50px;
-    background-color: #8a0f0f;
+    background-color: #000;
     color: white;
     flex-wrap: wrap;
 }
@@ -578,6 +578,7 @@ cite {
 }
 
 .text-side {
+    color: white;
     flex: 1;
     max-width: 50%;
 }
