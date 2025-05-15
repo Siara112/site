@@ -576,21 +576,6 @@ cite {
     color: white;
 }
 
-.cta-button {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background-color: white;
-  color: #ff3c3c;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #ffeaea;
-}
 
 
 
@@ -609,18 +594,3 @@ cite {
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.cta-button-dark {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #111;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  transition: background-color 0.3s;
-}
-
-.cta-button-dark:hover {
-  background-color: #333;
-}
