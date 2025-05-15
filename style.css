@@ -599,44 +599,34 @@ cite {
 
 
 
-
-
-
-.white-section {
+.white-layout {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
+  padding: 60px;
   background-color: white;
   color: #111;
-  padding: 60px;
-  gap: 40px;
   flex-wrap: wrap;
 }
 
-.white-section .media video {
+.white-layout .text {
+  flex: 1 1 45%;
+  max-width: 500px;
+}
+
+.white-layout .text h2,
+.white-layout .text p {
+  color: #111;
+}
+
+.white-layout .media {
+  flex: 1 1 45%;
+}
+
+.white-layout .media video {
   width: 100%;
-  max-width: 500px;
+  height: auto;
   border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-.white-section .text {
-  flex: 1;
-  max-width: 500px;
-}
-
-.btn-dark {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #111;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.btn-dark:hover {
-  background-color: #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
