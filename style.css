@@ -550,6 +550,9 @@ cite {
     color: #444;
 }
 
+
+
+
 .hero-split {
     display: flex;
     align-items: center;
@@ -603,7 +606,7 @@ cite {
 }
 
 .cta-button:hover {
-    background: #e13c4b;
+    background: #8a0f0f;
     transform: scale(1.05);
 }
 
