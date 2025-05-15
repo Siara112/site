@@ -586,47 +586,42 @@ cite {
   color: white !important;
 }
 
-.btn-white {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: white;
-  color: #8a0f0f;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+
+
+
+
+.section-white {
+  background-color: #ffffff;
+  padding: 80px 40px;
+  font-family: 'Arial', sans-serif;
 }
 
-
-
-.white-layout {
+.media-text-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  padding: 60px;
-  background-color: white;
-  color: #111;
+  justify-content: center;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
-.white-layout .text {
-  flex: 1 1 45%;
+.text {
   max-width: 500px;
-}
-
-.white-layout .text h2,
-.white-layout .text p {
   color: #111;
 }
 
-.white-layout .media {
-  flex: 1 1 45%;
+.text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.white-layout .media video {
-  width: 100%;
-  height: auto;
-  border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.media video {
+  width: 600px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
