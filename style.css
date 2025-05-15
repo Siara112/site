@@ -592,36 +592,33 @@ cite {
 
 .section-white {
   background-color: #ffffff;
-  padding: 80px 40px;
-  font-family: 'Arial', sans-serif;
+  color: #111;
+  padding: 60px;
 }
 
-.media-text-container {
+.section-white .content-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-between;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
-.text {
-  max-width: 500px;
-  color: #111;
+.section-white .media {
+  flex: 1 1 45%;
 }
 
-.text h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
+.section-white .media video {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.text p {
-  font-size: 18px;
-  line-height: 1.6;
+.section-white .text {
+  flex: 1 1 45%;
 }
 
-.media video {
-  width: 600px;
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+.section-white .text * {
+  color: #111 !important;
 }
