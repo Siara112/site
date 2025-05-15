@@ -553,53 +553,65 @@ cite {
 
 
 
-.section {
+.red-section {
   display: flex;
-  align-items: stretch;
-  height: 100vh; 
-}
-
-.red-theme {
-  background-color: #ff3c3c;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8a0f0f;
   color: white;
+  padding: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
-.video-left, .text-right {
-  flex: 1;
-  overflow: hidden;
-}
-
-.video-left video {
+.red-section .media video {
   width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  display: block;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.text-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-  color: white;
-}
-
-
-
-
-
-.white-theme {
-  background-color: #ffffff;
-  color: #111;
-}
-
-.text-left {
+.red-section .text {
+  flex: 1;
   max-width: 500px;
 }
 
-.media-right img {
-  width: 500px;
+
+.white-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: #111;
+  padding: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.white-section .media video {
+  width: 100%;
+  max-width: 500px;
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
+.white-section .text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.btn-dark {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
