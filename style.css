@@ -553,88 +553,73 @@ cite {
 
 
 
-.hero-split {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 50px;
-    background-color: #000;
-    color: white;
-    flex-wrap: wrap;
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  gap: 2rem;
 }
 
-.media-side {
-    flex: 1;
-    max-width: 50%;
-    padding-right: 30px;
+.red-theme {
+  background-color: #ff3c3c;
+  color: white;
 }
 
-.media-side img,
-.media-side video {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 0 25px rgba(255, 70, 85, 0.2);
+.media-left video {
+  width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.text-side {
-    color: white;
-    flex: 1;
-    max-width: 50%;
-}
-
-.text-side h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.text-side p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-    line-height: 1.6;
+.text-right {
+  max-width: 500px;
 }
 
 .cta-button {
-    background: #ff4655;
-    color: white;
-    padding: 14px 35px;
-    font-size: 1.1em;
-    border: none;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: background 0.3s, transform 0.3s;
-    box-shadow: 0 0 20px rgba(255, 70, 85, 0.4);
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: #ff3c3c;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background: #8a0f0f;
-    transform: scale(1.05);
+  background-color: #ffeaea;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .hero-split {
-        flex-direction: column;
-        padding: 40px 20px;
-    }
 
-    .media-side,
-    .text-side {
-        max-width: 100%;
-        padding: 0;
-    }
 
-    .text-side {
-        margin-top: 30px;
-    }
+.white-theme {
+  background-color: #ffffff;
+  color: #111;
 }
 
-.hero-split2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 50px;
-    background-color: #ffffff;
-    color: white;
-    flex-wrap: wrap;
+.text-left {
+  max-width: 500px;
+}
+
+.media-right img {
+  width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.cta-button-dark {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #111;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button-dark:hover {
+  background-color: #333;
 }
