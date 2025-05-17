@@ -36,7 +36,15 @@ function getMonthDetails(month) {
         case "Avril 2025":
             return "Amélioration du site internet en ajoutant les dernières informations nécessaires.<br>Création des derniers niveaux.";
         case "Mai 2025":
-            return "Finalisation du projet.<br>- Une histoire captivante pour attirer l'attention du joeur.<br>- Le jeu possède une fonctionnalité pour jouer en multijoueur, en étant sur un ordinateur différent.<br>- Le site internet est mis en ligne et accessible à tous.<br>- Des niveaux variés afin de rendre le jeu plus dynamique.<br>- Des ennemis présent pour barrer la route au joueur et d'augmenter la difficulté du jeu.<br>- Un système de vie pour permettre au joueur de prendre un temps de réflexion avant d'agir.";
+            return `
+                <ul>Finalisation du projet.
+                    <li>Une histoire captivante pour attirer l'attention du joeur.</li>
+                    <li>Le jeu possède une fonctionnalité pour jouer en multijoueur, en étant sur un ordinateur différent.</li>
+                    <li>Le site internet est mis en ligne et accessible à tous.</li>
+                    <li>Des niveaux variés afin de rendre le jeu plus dynamique.</li>
+                    <li>Des ennemis présent pour barrer la route au joueur et d'augmenter la difficulté du jeu.</li>
+                    <li>Un système de vie pour permettre au joueur de prendre un temps de réflexion avant d'agir.</li>
+                </ul>`;
         
         case "Octobre 2024":
             return "Le projet a début. Les premières idées d’« Objectif Lune ! » sont survenues lors d’une discussion autour d’un repas.<br>Au départ, nous n’avions qu’un nom, repris pour sa sonorité d’une série de vidéos Minecraft créée par Frigiel, un Youtubeur français reconnu pour ses vidéos Minecraft, accompagné d’autres créateurs de contenu. Cette série de vidéos avait pour but d’atteindre la Lune, en ne partant de rien, en équipe ou seul, seulement équipé de sa capacité à réfléchir à un moyen de survivre pour atteindre son objectif. Nous avons donc construit les débuts d’”Objectif Lune !” à partir de nos propres idées ainsi qu’en reprenant le concept de la série. Pour écrire le fil directeur de l’introduction au jeu, nous nous sommes inspirés du début de la série Netflix, “The Rain” en reprenant l’environnement post-apocalyptique dû à un incident : un virus pour la série et un accident nucléaire pour notre jeu. “Objectif Lune !” offrira donc une expérience captivante alliant exploration et survie.";
