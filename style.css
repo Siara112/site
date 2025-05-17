@@ -630,12 +630,15 @@ cite {
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-#month-description ul {
+#month-description ul.timeline-list {
+  list-style-type: disc;
   padding-left: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
-#month-description li {
+#month-description ul.timeline-list li {
   margin-bottom: 0.5rem;
-  line-height: 1.4;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #333;
 }
