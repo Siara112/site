@@ -58,18 +58,24 @@
     <div class="problem-block">
         <h3>Problème 2 : Affichage du panel "Game Over"</h3>
         <p><strong>Problème :</strong> Si le joueur ne possède plus de vie ou qu'il tombe dans un trou, un panel "Game Over" doit s'afficher. Or ce n'était pas le cas.</p>
-        <p><strong>Solution :</strong> zzzzzzzzz</p>
+        <p><strong>Solution :</strong> Le panel "Game Over" était relié au joueur qui, lui, possédait un gameObject.Destroy, ce qui détruisait tout ce qui était relié à lui. En séparant le joueur du panel "Game Over", le panel a pu s'afficher correctement.</p>
     </div>
 
     <div class="problem-block">
         <h3>Problème 3 : Synchronisation des mouvements des monstres</h3>
-        <p><strong>Problème :</strong> </p>
-        <p><strong>Solution :</strong> </p>
+        <p><strong>Problème :</strong> Lors d'une session multijoueur où deux joueurs se retrouvent sur un même niveau, les mouvements des monstres doivent être synchronisés, c'est-à-dire que les mêmes mouvements doivent être fait à la seconde. Or ce n'était pas le cas, les mouvements étaient décalés.</p>
+        <p><strong>Solution :</strong> Pour régler ce problème, il a fallu ajouter les composants Network Transform et Network Object.</p>
     </div>
 
     <div class="problem-block">
         <h3>Problème 4 : Animation du personnage sur le pc du deuxieme joueur</h3>
         <p><strong>Problème :</strong> </p>
+        <p><strong>Solution :</strong> </p>
+    </div>
+
+    <div class="problem-block">
+        <h3>Problème 5 : Superposition des barres de vie en multijoueur</h3>
+        <p><strong>Problème :</strong> Lors d'une session multijoueur où deux joueurs se retrouvent dans un même niveau, il y a une superposition des barres de vie ce qui fait que lorsque le joueur perd de la vie, cela ne s'affiche pas.</p>
         <p><strong>Solution :</strong> </p>
     </div>
         
