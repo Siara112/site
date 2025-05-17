@@ -37,7 +37,8 @@ function getMonthDetails(month) {
             return "Amélioration du site internet en ajoutant les dernières informations nécessaires.<br>Création des derniers niveaux.";
         case "Mai 2025":
             return `
-                <ul>Finalisation du projet.
+                <ul class="timeline-list">
+                <li>Finalisation du projet.</li>
                     <li>Une histoire captivante pour attirer l'attention du joeur.</li>
                     <li>Le jeu possède une fonctionnalité pour jouer en multijoueur, en étant sur un ordinateur différent.</li>
                     <li>Le site internet est mis en ligne et accessible à tous.</li>
