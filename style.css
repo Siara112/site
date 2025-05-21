@@ -11,6 +11,15 @@ header{
     background-size: cover;
     background-position: center;
 }
+hearder2{
+    width: 100vw;
+    height: 200px;
+    background-color: #9c2222;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 .logo a{
     color:#fff;
