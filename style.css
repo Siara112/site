@@ -664,3 +664,12 @@ cite {
     color: #f5f5f5;
     letter-spacing: 2px;
 }
+
+.intro-actus {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ffffff; 
+}
