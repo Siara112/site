@@ -648,6 +648,7 @@ cite {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-size: cover;
 }
 .banner-vert {
     width: 100vw;
