@@ -650,6 +650,16 @@ cite {
     overflow: hidden;
     background-size: cover;
 }
+.bunker-banner {
+    width: 100vw;
+    height: 370px;
+    background-image: url("bunker.png");
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+}
 .banner-vert {
     width: 100vw;
     height: 370px;
