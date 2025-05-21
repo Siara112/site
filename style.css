@@ -660,6 +660,16 @@ cite {
     overflow: hidden;
 }
 
+.banner-rouge {
+    width: 100vw;
+    height: 370px;
+    background-color: #9c2222;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 
 .banner-content {
     position: absolute;
