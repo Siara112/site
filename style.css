@@ -680,6 +680,17 @@ cite {
     overflow: hidden;
 }
 
+.ordi-banner {
+    width: 100vw;
+    height: 370px;
+    background-image: url("2.png");
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
 
 .banner-content {
     position: absolute;
