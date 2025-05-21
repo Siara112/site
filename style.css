@@ -643,7 +643,7 @@ cite {
 .actus-banner {
     width: 100vw;
     height: 370px;
-    background-image: url(aa.png);
+    background-image: url("aa.png");
     position: relative;
     margin: 0;
     padding: 0;
