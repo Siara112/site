@@ -632,15 +632,17 @@ cite {
 
 
 .actus-banner {
-  background-color: #9c2222; 
-  padding: 4rem 2rem;
-  text-align: left;
+    background-color: #0f1923;
+    padding: 3rem 2rem;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.actus-banner h5 {
-  font-size: 4rem;
-  font-weight: 800;
-  color: #f5f5f5;
-  margin: 0;
-  text-transform: uppercase;
+.banner-content h5 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
 }
