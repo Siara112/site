@@ -629,3 +629,25 @@ cite {
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+
+#rocket {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  width: 80px;
+  height: 200px;
+  transition: transform 1s ease-in-out;
+  z-index: 1000;
+}
+
+
+.rocket-up {
+  transform: translateY(-500px);
+}
+.rocket-down {
+  transform: translateY(0);
+}
+
+.flame-off {
+  display: none;
+}
