@@ -641,18 +641,17 @@ cite {
 
 
 .actus-banner {
-  width: 100vw;
-  height: 370px;
-  background-image: url("aa.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 3rem;
-  box-sizing: border-box;
-  position: relative;
+    width: 100vw;
+    height: 370px;
+    background-image: url("aa.png");
+    position: relative;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
 }
+
 .bunker-banner {
     width: 100vw;
     height: 370px;
