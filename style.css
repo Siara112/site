@@ -757,3 +757,18 @@ cite {
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
 }
+
+
+.banner-button .btn-banner {
+  background-color: #ff4655;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-button .btn-banner:hover {
+  background-color: #e13d4c;
+}
