@@ -645,6 +645,7 @@ cite {
     height: 370px;
     background-image: url("aa.png");
     position: relative;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -758,8 +759,11 @@ cite {
   box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
 }
 
+.banner-button {
+  align-self: flex-end;
+}
 
-.banner-button .btn-banner {
+.btn-banner {
   background-color: #ff4655;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -769,6 +773,6 @@ cite {
   transition: background-color 0.3s ease;
 }
 
-.banner-button .btn-banner:hover {
+.btn-banner:hover {
   background-color: #e13d4c;
 }
