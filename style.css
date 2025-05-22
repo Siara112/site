@@ -641,15 +641,17 @@ cite {
 
 
 .actus-banner {
-    width: 100vw;
-    height: 370px;
-    background-image: url("aa.png");
-    position: relative;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-size: cover;
+  width: 100vw;
+  height: 370px;
+  background-image: url("aa.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  position: relative;
 }
 .bunker-banner {
     width: 100vw;
@@ -700,12 +702,12 @@ cite {
 }
 
 .banner-content h5 {
-    font-size: 2.7rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 0;
-    color: #f5f5f5;
-    letter-spacing: 2px;
+  font-size: 2.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  color: #f5f5f5;
+  letter-spacing: 2px;
 }
 
 .intro-actus {
