@@ -648,7 +648,7 @@ cite {
   background-position: center;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 2rem 3rem;
   box-sizing: border-box;
   position: relative;
