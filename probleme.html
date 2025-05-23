@@ -56,27 +56,39 @@
     </div>
 
     <div class="problem-block">
-        <h3 class="titre-minecraft">Problème 2 : Affichage du panel "Game Over"</h3>
+        <h3 class="titre-minecraft">Problème 2 : Github Desktop</h3>
+        <p><strong>Problème :</strong> L'utilisation de Github Desktop nous a grandement aidées pour la réalisation de ce projet. Mais nous avons rencontré un souci majeur lors de son utilisation. Dans les fichiers modifiés, nous retrouvions régulièrement des fichiers qui se modifiaient seuls sans que nous ne modifiions quoi que ce soit dessus. Ce fichier était un asset qui nous permettait de changer la police d'écriture. Cette modification de fichier nous a causé à tort, lorsque nous soumettions le projet dans le répertoire, celle-ci causait des problèmes sur le projet des personnes qui tentait de le récupérer.</p>
+        <p><strong>Solution :</strong> Nous avons utilisé la commande suivante : git checkout -- "nom_du_fichier". Cette commande permet de restaurer des fichiers de l’arbre de travail. Donc les fichiers qui se modifiaient seuls, se remettaient à l'état initial c'est-à-dire sans modification.</p>
+    </div>
+
+    <div class="problem-block">
+        <h3 class="titre-minecraft">Problème 3 : Affichage du panel "Game Over"</h3>
         <p><strong>Problème :</strong> Si le joueur ne possède plus de vie ou qu'il tombe dans un trou, un panel "Game Over" doit s'afficher. Or ce n'était pas le cas.</p>
         <p><strong>Solution :</strong> Le panel "Game Over" était relié au joueur qui, lui, possédait un gameObject.Destroy, ce qui détruisait tout ce qui était relié à lui. En séparant le joueur du panel "Game Over", le panel a pu s'afficher correctement.</p>
     </div>
 
     <div class="problem-block">
-        <h3 class="titre-minecraft">Problème 3 : Synchronisation des mouvements des monstres</h3>
+        <h3 class="titre-minecraft">Problème 4 : Synchronisation des mouvements des monstres</h3>
         <p><strong>Problème :</strong> Lors d'une session multijoueur où deux joueurs se retrouvent sur un même niveau, les mouvements des monstres doivent être synchronisés, c'est-à-dire que les mêmes mouvements doivent être faits à la seconde. Or ce n'était pas le cas, les mouvements étaient décalés.</p>
         <p><strong>Solution :</strong> Pour régler ce problème, il a fallu ajouter les composants Network Transform et Network Object.</p>
     </div>
 
     <div class="problem-block">
-        <h3 class="titre-minecraft">Problème 4 : Animation du personnage sur l'ordinateur du deuxième joueur</h3>
+        <h3 class="titre-minecraft">Problème 5 : Animation du personnage sur l'ordinateur du deuxième joueur</h3>
         <p><strong>Problème :</strong> Lors d'une session multijoueur où deux joueurs se retrouvent dans un même niveau, le joueur 2 ne voyait que ses déplacements et ses mouvements mais pas celui du joueur 1. Le problème était identique pour le joueur 1 également.</p>
         <p><strong>Solution :</strong> </p>
     </div>
 
     <div class="problem-block">
-        <h3 class="titre-minecraft">Problème 5 : Superposition des barres de vie en multijoueur</h3>
+        <h3 class="titre-minecraft">Problème 6 : Superposition des barres de vie en multijoueur</h3>
         <p><strong>Problème :</strong> Lors d'une session multijoueur où deux joueurs se retrouvent dans un même niveau, il y a une superposition des barres de vie ce qui fait que lorsque le joueur perd de la vie, cela ne s'affiche pas.</p>
         <p><strong>Solution :</strong> </p>
+    </div>
+        
+    <div class="problem-block">
+        <h3 class="titre-minecraft">Problème 7 : Suivi de l'ennemi</h3>
+        <p><strong>Problème :</strong> Lors d'un niveau, le suivi de l'ennemi ne fonctionnait pas étant donnée que pour le jeu, le tag du joueur ne bougeait pas donc par conséquent l'ennemi rejoignait toujours le même point.</p>
+        <p><strong>Solution :</strong> Pour régler ce problème, nous avons décidé de supprimer et de remplacer le script du saut de grenouille par un script qui a été modifié.</p>
     </div>
         
 </section>
