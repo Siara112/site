@@ -642,7 +642,7 @@ cite {
 
 
 .actus-banner {
-    width: 100vw;
+    width: 100%;
     height: 370px;
     background-image: url("aa.png");
     position: relative;
@@ -653,7 +653,7 @@ cite {
 }
 
 .bunker-banner {
-    width: 100vw;
+    width: 100%;
     height: 370px;
     background-image: url("bunker.png");
     position: relative;
@@ -663,7 +663,7 @@ cite {
     background-size: cover;
 }
 .banner-vert {
-    width: 100vw;
+    width: 100%;
     height: 370px;
     background-color: #3a6353;
     position: relative;
@@ -683,7 +683,7 @@ cite {
 }
 
 .ordi-banner {
-    width: 100vw;
+    width: 100%;
     height: 370px;
     background-image: url("2.png");
     position: relative;
