@@ -184,6 +184,18 @@ cite {
     font-weight: bold;
     color: #3a6353;
 }
+
+cite a {
+  color: #3a6353;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'angry', sans-serif;
+}
+
+cite a:hover {
+  text-decoration: underline;
+}
+
 .image-section {
     width: 15%;  
     height: auto;  
