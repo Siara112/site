@@ -705,6 +705,17 @@ cite a:hover {
     background-size: cover;
 }
 
+.banner-ordi {
+    width: 100%;
+    height: 370px;
+    background-image: url("3.png");
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
 
 .banner-content {
     position: absolute;
